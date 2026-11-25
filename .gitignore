@@ -1,0 +1,25 @@
+#helyi környezet
+.env
+.env.*
+!.env.example
+
+#függőségek
+backend/vendor/
+frontend/node_modules/
+
+#build kimenet
+frontend/dist/
+
+#laravel futás közbeni file-ok
+backend/storage/*.key
+backend/logs/*.log
+backend/bootstrap/cache/*.php
+backend/public/hot
+backend/public/storage
+
+#szerkesztő file-jai
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*log
