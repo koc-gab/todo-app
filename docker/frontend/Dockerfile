@@ -1,6 +1,6 @@
 FROM node:22-alpine
 
-WORKDIR /a
+WORKDIR /app
 
 EXPOSE 5173
 

@@ -10,16 +10,16 @@ frontend/node_modules/
 #build kimenet
 frontend/dist/
 
-#laravel futás közbeni file-ok
+#laravel futás közbeni fájlok
 backend/storage/*.key
-backend/logs/*.log
+backend/storage/logs/*.log
 backend/bootstrap/cache/*.php
 backend/public/hot
 backend/public/storage
 
-#szerkesztő file-jai
+#szerkesztő filejai
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
-*log
+*.log
